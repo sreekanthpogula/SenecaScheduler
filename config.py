@@ -1,6 +1,8 @@
 import json
+import os
 
-config = {
+# Initial configuration
+initial_config = {
     "email": {
         "smtp_server": "smtp.yourserver.com",
         "smtp_port": 587,
@@ -37,7 +39,5 @@ def load_config(filename="current_config.json"):
 
 
 # Save the initial configuration if the file does not exist
-import os
-
 if not os.path.exists("current_config.json"):
     save_config(initial_config)

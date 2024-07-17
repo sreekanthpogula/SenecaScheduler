@@ -1,0 +1,24 @@
+{
+    "email": {
+        "smtp_server": "live.smtp.mailtrap.io",
+        "smtp_port": 587,
+        "username": "sreekanthpogula2001@gmail.com",
+        "password": "Sree@14351"
+    },
+    "teams": {
+        "webhook_url": "https://outlook.office.com/webhook/your_webhook_url"
+    },
+    "slack": {
+        "webhook_url": "https://hooks.slack.com/services/your_webhook_url"
+    },
+    "scheduling": {
+        "week_1_guy": "sreekanthvue@gmail.com",
+        "week_2_guy": "sreekanthvue@gmail.com",
+        "week_3_guy": "sreekanthpogula2001@gmail.com",
+        "responsibilities": [
+            "1. Acknowledge",
+            "2. Go through the debug steps and get in a call",
+            "3. Provide the analysis we did at offshore to onshore"
+        ]
+    }
+}
