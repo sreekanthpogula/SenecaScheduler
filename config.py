@@ -1,9 +1,11 @@
+import json
+
 config = {
     "email": {
         "smtp_server": "smtp.yourserver.com",
         "smtp_port": 587,
-        "username": "sreekanth.pogula@senecaglobal.com",
-        "password": "888888888888888"
+        "username": "no-reply@senecaglobal.com",
+        "password": "password"
     },
     "teams": {
         "webhook_url": "https://outlook.office.com/webhook/your_webhook_url"
@@ -22,3 +24,20 @@ config = {
         ]
     }
 }
+
+
+def save_config(config, filename="current_config.json"):
+    with open(filename, "w") as file:
+        json.dump(config, file, indent=4)
+
+
+def load_config(filename="current_config.json"):
+    with open(filename, "r") as file:
+        return json.load(file)
+
+
+# Save the initial configuration if the file does not exist
+import os
+
+if not os.path.exists("current_config.json"):
+    save_config(initial_config)
