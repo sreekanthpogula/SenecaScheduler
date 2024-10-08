@@ -4,21 +4,28 @@ import os
 # Initial configuration
 initial_config = {
     "email": {
-        "smtp_server": "smtp.yourserver.com",
+        "smtp_server": "smtp-mail.outlook.com",
         "smtp_port": 587,
-        "username": "no-reply@senecaglobal.com",
-        "password": "password"
+        "username": "it@senecaglobal.com",
+        "password": "reX93Rk-9+9Q"
+    },
+    "username": {
+        "Sreekanth Pogula",
+        "Karanveer Singh",
+        "Anmol Dhage",
+        "Arjun Shome"
     },
     "teams": {
         "webhook_url": "https://outlook.office.com/webhook/your_webhook_url"
     },
     "slack": {
-        "webhook_url": "https://hooks.slack.com/services/your_webhook_url"
+        # "webhook_url": "https://hooks.slack.com/services/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"
     },
     "scheduling": {
-        "week_1_guy": "anmol.dhage@senecaglobal.com",
-        "week_2_guy": "karanveer.singh.@senecaglobal.com",
-        "week_3_guy": "sreekanth.pogula@senecaglobal.com",
+        "week_1_guy": "sreekanth.pogula@senecaglobal.com",
+        "week_2_guy": "karanveer.singh@senecaglobal.com",
+        "week_3_guy": "anmol.dhage@senecaglobal.com",
+        "week_4_guy": "arjun.shone@senecaglobal.com",
         "responsibilities": [
             "1. Acknowledge",
             "2. Go through the debug steps and get in a call",

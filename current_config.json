@@ -1,20 +1,21 @@
 {
     "email": {
-        "smtp_server": "live.smtp.mailtrap.io",
+        "smtp_server": "smtp-mail.outlook.com",
         "smtp_port": 587,
-        "username": "sreekanthpogula2001@gmail.com",
-        "password": "Sree@14351"
+        "username": "it@senecaglobal.com",
+        "password": "reX93Rk-9+9Q"
     },
     "teams": {
         "webhook_url": "https://outlook.office.com/webhook/your_webhook_url"
     },
     "slack": {
-        "webhook_url": "https://hooks.slack.com/services/your_webhook_url"
+        "webhook_url": "https://hooks.slack.com/services/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"
     },
     "scheduling": {
-        "week_1_guy": "sreekanthvue@gmail.com",
-        "week_2_guy": "sreekanthvue@gmail.com",
-        "week_3_guy": "sreekanthpogula2001@gmail.com",
+        "week_1_guy": "sreekanth.pogula@senecaglobal.com",
+        "week_2_guy": "karanveer.singh@senecaglobal.com",
+        "week_3_guy": "anmol.dhage@senecaglobal.com",
+        "week_4_guy": "arjun.shone@senecaglobal.com",
         "responsibilities": [
             "1. Acknowledge",
             "2. Go through the debug steps and get in a call",

@@ -88,7 +88,7 @@ def main():
         [f"{idx + 1}. {resp}" for idx, resp in enumerate(config['scheduling']['responsibilities'])])
 
     subject = "Weekly Responsibilities"
-    body = f"Hello,\n\nYou are assigned the responsibilities for week {week_number}.\n\nResponsibilities:\n{responsibilities}\n\nThank you."
+    body = f"Hello ,\n\nYou are assigned the responsibilities for week {week_number}.\n\nResponsibilities:\n{responsibilities}\n\nThank you."
 
     send_email(subject, body, assigned_person, config)
     send_teams_message(body, config)
